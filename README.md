@@ -1,6 +1,6 @@
 # Sinapsis
 
-![Sinapsis Specimen](https://github.com/mguerrerouaslp/Sinapsis_UASLP/blob/main/assets/Sinapsis_specimen.png)
+![Sinapsis Specimen](/assets/Sinapsis_specimen.png)
 
 **Sinapsis** is an Open Access typeface created for the **Sinapsis Architecture Workshop** at the Facultad del Hábitat, Universidad Autónoma de San Luis Potosí (UASLP). The typeface is based on the architectural handwriting of architect **Juan Fernando Cárdenas Guillén**, who founded the workshop in 2011.
 

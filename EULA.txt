@@ -1,0 +1,47 @@
+================================================================================
+END USER LICENSE AGREEMENT (EULA) — SINAPSIS
+================================================================================
+
+Typeface: Sinapsis (Fh-Sinapsis Regular)
+Style: Regular (Single Style)
+Status: Open Access Resource
+Copyright Holders: (c) 2026, Taller de Arquitectura Sinapsis — Facultad del Hábitat, Universidad Autónoma de San Luis Potosí (UASLP) (https://habitat.uaslp.mx) & Manuel Guerrero Salinas — Bluetypo (https://bluetypo.com)
+Reserved Font Names: "Sinapsis", "Fh-Sinapsis"
+Underlying License: SIL Open Font License (OFL), Version 1.1
+
+--------------------------------------------------------------------------------
+1. OVERVIEW & LICENSING FRAMEWORK (OPEN ACCESS)
+--------------------------------------------------------------------------------
+The Sinapsis font software is an Open Access educational, architectural, and design resource developed to advance visual culture within the Sinapsis Architecture Workshop, the Facultad del Hábitat (UASLP), and the international creative community. Sinapsis is conceived and released exclusively as a single, authentic Regular style faithful to the original architectural handwriting of Arq. Juan Fernando Cárdenas Guillén.
+
+It is released free of charge under the terms of the SIL Open Font License (OFL), Version 1.1. This End User License Agreement (EULA) affirms the open, royalty-free nature of the font software, providing an explicit summary of rights and permitted uses for students, faculty, researchers, professionals, studios, and institutions.
+
+--------------------------------------------------------------------------------
+2. PERMITTED USES (GRANT OF RIGHTS)
+--------------------------------------------------------------------------------
+Permission is hereby granted, free of charge, to any person or entity obtaining a copy of the Font Software to use, study, copy, merge, embed, modify, and redistribute it, subject to the following conditions:
+
+* Desktop & Print Use: Unlimited installation across workstations and operating systems for creating printed materials, architectural drawings, technical plans, branding, identities, environmental signage, apparel, and editorial publications.
+* Webfont Embedding: Self-hosting and integration via @font-face stylesheets in web applications, portals, and websites without domain constraints or monthly pageview limitations.
+* Document & Asset Embedding: Embedding within electronic documents (PDFs, ePUBs, presentations, spreadsheets) in both static and editable workflows.
+* Apps, Games & Software: Embedding into native mobile applications (iOS, Android), game engines, software user interfaces, and desktop applications.
+* Broadcast & Digital Media: Usage across film productions, television broadcasts, video platforms (YouTube, streaming services), and multimedia installations.
+
+--------------------------------------------------------------------------------
+3. MODIFICATIONS & DERIVATIVE WORKS
+--------------------------------------------------------------------------------
+* Right to Adapt: You are free to modify, expand, or adjust glyph contours, metrics, OpenType feature scripts, or formats.
+* Reserved Font Name Protection: Any modified or derivative font CANNOT use the name "Sinapsis", "Fh-Sinapsis", or any confusingly similar derivative in its primary family name or metadata without explicit prior written authorization from the copyright holders.
+* Copyleft Requirement: Any derivative work based on this Font Software must remain licensed under the SIL Open Font License, Version 1.1.
+
+--------------------------------------------------------------------------------
+4. RESTRICTIONS
+--------------------------------------------------------------------------------
+1) No Standalone Commercial Sale: Neither the original Font Software nor any derivative versions may be sold by themselves (cannot be sold by itself).
+2) Software Bundling Allowed: You may bundle or package this font with larger commercial software distributions as long as proper OFL attribution is retained.
+3) No Endorsement: The names of the authors, workshop, or university may not be used for commercial advertising or promotional endorsement without prior written consent.
+
+--------------------------------------------------------------------------------
+5. DISCLAIMER OF WARRANTY & LIMITATION OF LIABILITY
+--------------------------------------------------------------------------------
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OR INABILITY TO USE THE FONT SOFTWARE.

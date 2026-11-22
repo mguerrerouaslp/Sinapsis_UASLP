@@ -1,6 +1,6 @@
 # Project Context — Sinapsis
 
-![Sinapsis Specimen](https://raw.githubusercontent.com/bluetypo/Sinapsis/main/assets/Sinapsis_specimen.png)
+![Sinapsis Specimen](https://github.com/mguerrerouaslp/Sinapsis_UASLP/blob/main/assets/Sinapsis_specimen.png)
 
 > [**← Return to README**](../README.md) · [**00 Context**](00_context.md) · [**01 Workflow**](01_workflow.md) · [**02 Nomenclature**](02_nomenclature.md) · [**03 Releases**](03_releases.md)
 

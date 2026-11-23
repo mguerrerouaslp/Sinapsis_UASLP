@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sinapsis — Tipografía de acceso abierto · Facultad del Hábitat, UASLP</title>
+<meta name="description" content="Descarga gratuita de Sinapsis, tipografía de acceso abierto basada en la caligrafía arquitectónica de Juan Fernando Cárdenas Guillén. Licencia SIL OFL 1.1.">
+<style>
+  /* La fuente se carga desde el propio repositorio vía jsDelivr */
+  @font-face {
+    font-family: "Sinapsis";
+    src: url("https://cdn.jsdelivr.net/gh/mguerrerouaslp/Sinapsis_UASLP@main/builds/woff2/FhSinapsis-Regular.woff2") format("woff2");
+    font-display: swap;
+  }
+  :root {
+    --paper: #f4f1ea;
+    --ink: #1c1b19;
+    --muted: #6d6a63;
+    --line: #d8d3c8;
+    --accent: #1f4fd1;
+    --accent-ink: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
+  header.top {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 20px 0; border-bottom: 1px solid var(--line);
+    font-size: 14px; color: var(--muted);
+  }
+  header.top a { color: var(--muted); text-decoration: none; }
+  header.top a:hover { color: var(--ink); }
+
+  .hero { padding: 72px 0 48px; }
+  .hero h1 {
+    font-family: "Sinapsis", cursive;
+    font-weight: 400;
+    font-size: clamp(72px, 15vw, 180px);
+    line-height: .95; margin: 0 0 20px;
+    font-feature-settings: "calt" 1, "liga" 1, "dlig" 1;
+  }
+  .hero p.lead { font-size: 20px; max-width: 640px; margin: 0 0 36px; }
+
+  .download {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 18px 28px;
+  }
+  .btn {
+    display: inline-flex; align-items: center; gap: 12px;
+    background: var(--accent); color: var(--accent-ink);
+    padding: 18px 30px; border-radius: 999px;
+    font-size: 19px; font-weight: 600; text-decoration: none;
+    box-shadow: 0 6px 20px rgba(31,79,209,.25);
+    transition: transform .15s ease, box-shadow .15s ease;
+  }
+  .btn:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(31,79,209,.32); }
+  .btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+  .btn svg { width: 22px; height: 22px; }
+  .meta { font-size: 14px; color: var(--muted); line-height: 1.5; }
+  .meta strong { color: var(--ink); font-weight: 600; }
+
+  section { padding: 48px 0; border-top: 1px solid var(--line); }
+  section h2 {
+    font-size: 13px; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--muted); font-weight: 600; margin: 0 0 24px;
+  }
+
+  .specimen { font-family: "Sinapsis", cursive; }
+  .specimen .big { font-size: clamp(40px, 7vw, 76px); line-height: 1.1; margin: 0 0 16px; }
+  .specimen .chars { font-size: 30px; line-height: 1.4; color: #3b3935; word-break: break-word; }
+  .tester {
+    width: 100%; margin-top: 28px; padding: 18px 20px;
+    font-family: "Sinapsis", cursive; font-size: 40px;
+    border: 1px solid var(--line); border-radius: 12px; background: #fffdf8; color: var(--ink);
+  }
+  .tester:focus { outline: 2px solid var(--accent); border-color: transparent; }
+
+  .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+  .step { background: #fffdf8; border: 1px solid var(--line); border-radius: 14px; padding: 22px; }
+  .step b { display: block; font-size: 15px; margin-bottom: 6px; }
+  .step p { margin: 0; font-size: 15px; color: #45433e; }
+  .step .n { font-family: "Sinapsis", cursive; font-size: 40px; line-height: 1; color: var(--accent); }
+
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+  @media (max-width: 720px) { .two { grid-template-columns: 1fr; } }
+  .two p { margin: 0 0 12px; }
+  a { color: var(--accent); }
+
+  footer { padding: 32px 0 48px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <span>Facultad del Hábitat · UASLP</span>
+      <a href="https://github.com/mguerrerouaslp/Sinapsis_UASLP">Código fuente en GitHub ↗</a>
+    </header>
+
+    <div class="hero">
+      <h1>Sinapsis</h1>
+      <p class="lead">Tipografía de acceso abierto basada en la caligrafía arquitectónica del arquitecto Juan Fernando Cárdenas Guillén, fundador del Taller de Arquitectura Sinapsis. Gratuita para uso personal, académico y comercial.</p>
+
+      <div class="download">
+        <a id="dl" class="btn" href="https://github.com/mguerrerouaslp/Sinapsis_UASLP/releases/latest">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+          <span id="dl-label">Descargar Sinapsis</span>
+        </a>
+        <div class="meta" id="dl-meta">Archivo .zip con OTF, TTF, WOFF y WOFF2</div>
+      </div>
+    </div>
+
+    <section class="specimen" aria-label="Muestra tipográfica">
+      <h2 style="font-family: system-ui, sans-serif">Muestra</h2>
+      <p class="big">Arquitectura dibujada a mano alzada</p>
+      <p class="chars">ABCDEFGHIJKLMNÑOPQRSTUVWXYZ<br>abcdefghijklmnñopqrstuvwxyz<br>0123456789 &amp; ¿? ¡! fi fl</p>
+      <input class="tester" type="text" value="Escribe aquí para probarla" aria-label="Escribe un texto para probar la tipografía">
+    </section>
+
+    <section>
+      <h2>Cómo instalarla</h2>
+      <div class="steps">
+        <div class="step"><span class="n">1</span><b>Descarga</b><p>Pulsa el botón azul. Se descargará un archivo .zip.</p></div>
+        <div class="step"><span class="n">2</span><b>Descomprime</b><p>Haz doble clic en el .zip para abrir la carpeta.</p></div>
+        <div class="step"><span class="n">3</span><b>Instala</b><p><strong>Mac:</strong> doble clic en el archivo .otf y «Instalar». <strong>Windows:</strong> clic derecho en el .otf y «Instalar».</p></div>
+        <div class="step"><span class="n">4</span><b>Úsala</b><p>Busca «Fh-Sinapsis» en el menú de fuentes de tu programa.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Acerca del proyecto</h2>
+      <div class="two">
+        <div>
+          <p>Sinapsis se creó para el Taller de Arquitectura Sinapsis de la Facultad del Hábitat, Universidad Autónoma de San Luis Potosí. Traslada el gesto, el ritmo y el trazo de los cuadernos del Arq. Cárdenas Guillén a una fuente digital, con alternativas contextuales que reproducen la variación natural de la escritura.</p>
+          <p>Incluye ligaduras, versalitas, juegos estilísticos, fracciones y soporte para español, catalán y turco.</p>
+        </div>
+        <div>
+          <p><strong>Licencia:</strong> <a href="https://github.com/mguerrerouaslp/Sinapsis_UASLP/blob/main/LICENSE.txt">SIL Open Font License 1.1</a>. Puedes usarla, compartirla y modificarla sin costo; las versiones derivadas deben mantener la misma licencia y no usar el nombre «Sinapsis».</p>
+          <p><strong>Créditos:</strong> Juan Fernando Cárdenas Guillén (caligrafía original) · Manuel Guerrero Salinas, Bluetypo (diseño tipográfico y producción) · Taller de Arquitectura Sinapsis, Facultad del Hábitat, UASLP.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      ¿Diseñas o programas? Los archivos fuente (.glyphs), la documentación y el historial de versiones están en el <a href="https://github.com/mguerrerouaslp/Sinapsis_UASLP">repositorio de GitHub</a>.
+    </footer>
+  </div>
+
+<script>
+  // Busca automáticamente el último release y apunta el botón al .zip
+  (async function () {
+    const repo = "mguerrerouaslp/Sinapsis_UASLP";
+    const btn = document.getElementById("dl");
+    const label = document.getElementById("dl-label");
+    const meta = document.getElementById("dl-meta");
+    try {
+      const res = await fetch(`https://api.github.com/repos/${repo}/releases/latest`, {
+        headers: { Accept: "application/vnd.github+json" }
+      });
+      if (!res.ok) throw new Error(res.status);
+      const rel = await res.json();
+      const zip = (rel.assets || []).find(a => a.name.toLowerCase().endsWith(".zip"));
+      if (!zip) return; // se queda el enlace a la página del release
+      btn.href = zip.browser_download_url;
+      btn.setAttribute("download", zip.name);
+      const v = (zip.name.match(/v?(\d+(?:\.\d+)+)/) || [])[1] || rel.tag_name;
+      label.textContent = `Descargar Sinapsis ${v}`;
+      const mb = (zip.size / 1048576).toFixed(1);
+      const fecha = new Date(rel.published_at).toLocaleDateString("es-MX", { day: "numeric", month: "long", year: "numeric" });
+      meta.innerHTML = `<strong>${zip.name}</strong> · ${mb} MB<br>Publicado el ${fecha} · OTF, TTF, WOFF y WOFF2`;
+    } catch (e) {
+      // Sin conexión a la API: el botón lleva a la página del último release
+    }
+  })();
+</script>
+</body>
+</html>

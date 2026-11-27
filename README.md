@@ -101,6 +101,14 @@ Sinapsis is purposefully engineered as a single-style typeface: **Regular** (`Fh
 
 ---
 
+## Language Support
+
+Sinapsis supports **126 Latin-based languages**:
+
+Afrikaans, Albanian, Asu, Azerbaijani, Basque, Bemba, Bena, Bosnian, Catalan, Cebuano, Chiga, Colognian, Cornish, Corsican, Croatian, Czech, Danish, Dutch, Embu, English, Esperanto, Estonian, Faroese, Filipino, Finnish, French, Friulian, Galician, Ganda, German, Guadeloupean Creole, Gusii, Haitian Creole, Hungarian, Icelandic, Ido, Inari Sami, Indonesian, Interlingua, Irish, Iskonawa, Italian, Javanese, Jju, Jola-Fonyi, Kabuverdianu, Kaingang, Kalaallisut, Kalenjin, Kamba, Kikuyu, Kinyarwanda, Latvian, Lithuanian, Lojban, Lower Sorbian, Luo, Luxembourgish, Luyia, Machame, Makhuwa-Meetto, Makonde, Malagasy, Malay, Maltese, Manx, Māori, Martinican Creole, Meru, Morisyen, Nheengatu, North Ndebele, North Sámi, Northern Sotho, Norwegian Bokmål, Norwegian Nynorsk, Nyanja, Nyankole, Occitan, Oromo, Pite Sámi, Polish, Portuguese, Romanian, Romansh, Rombo, Rundi, Rwa, Samburu, Sango, Sangu, Sardinian, Scottish Gaelic, Sena, Serbian, Shambala, Shipibo-Konibo, Shona, Slovak, Slovenian, Soga, Somali, South Ndebele, Southern Sotho, Spanish, Sundanese, Swahili, Swati, Swedish, Swiss German, Taita, Taroko, Teso, Tsonga, Tswana, Turkish, Turkmen, Ume Sámi, Upper Sorbian, Vunjo, Walloon, Welsh, Wolastoqey, Wolof, Xhosa, Zulu.
+
+---
+
 ## Digitization & Development Workflow
 
 The production pipeline translates handwritten sketchbooks into precision digital vectors:

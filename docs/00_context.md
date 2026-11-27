@@ -1,6 +1,6 @@
 # Project Context — Sinapsis
 
-![Sinapsis Specimen](https://raw.githubusercontent.com/bluetypo/Sinapsis/main/assets/Sinapsis_specimen.png)
+![Sinapsis Specimen](../assets/Sinapsis_specimen.png)
 
 > [**← Return to README**](../README.md) · [**00 Context**](00_context.md) · [**01 Workflow**](01_workflow.md) · [**02 Nomenclature**](02_nomenclature.md) · [**03 Releases**](03_releases.md)
 
@@ -15,7 +15,7 @@ The project captures, formalizes, and translates the architectural ductus, rhyth
 Sinapsis is conceived from its inception as an **Open Access Resource** dedicated to higher public education, architectural research, and the international creative community:
 
 * **Academic Public Good:** Providing students, educators, and researchers at the Facultad del Hábitat (and academic institutions worldwide) with a professional-grade type system without economic barriers or commercial licensing restrictions.
-* **Open Source Transparency:** Beyond distributing compiled binaries (Desktop OTF/TTF and Web WOFF/WOFF2), the project maintains full transparency by publishing its complete design sources (`sources/Sinapsis.glyphs`), technical documentation, and build pipeline.
+* **Open Source Transparency:** Beyond distributing compiled binaries (Desktop OTF/TTF and Web WOFF/WOFF2), the project publishes its engineering scripts, QA reports, technical documentation, and release packaging pipeline.
 * **Culture of Libre Typography:** Distributed under the **SIL Open Font License (OFL 1.1)**, ensuring that academic adaptations, research uses, and derivative works remain free, open, and permanently accessible.
 
 ---
@@ -53,7 +53,7 @@ Comprehensive **Latin Pro** coverage:
 
 ## 6. Repository Architecture & Quality Standards
 This repository serves as the development hub for:
-1. **Master Source Control:** Tracking design iterations in `sources/Sinapsis.glyphs`.
-2. **Automated Font Compilation:** Generating clean OTF, TTF, WOFF, and WOFF2 builds in `builds/`.
-3. **Rigorous Quality Assurance:** Validation against automated linters (*Fontbakery*), vertical metric reports, and InDesign specimen suites.
+1. **Font Engineering Tooling:** Maintaining Glyphs automation scripts in `scripts/`.
+2. **Compiled Font Binaries:** Distributing clean OTF, TTF, WOFF, and WOFF2 builds in `builds/`.
+3. **Rigorous Quality Assurance:** Validation against automated linters (*Fontbakery*) and vertical metric reports in `tests/`.
 4. **Clean Release Distribution:** Producing sanitized, metadata-free release archives in `builds/release/`.

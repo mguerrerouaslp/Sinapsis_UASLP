@@ -4,8 +4,6 @@
 
 ---
 
----
-
 ## Architectural Scope: Single Regular Style
 
 Sinapsis is conceived and finalized exclusively as a **single-style typeface: Regular**. The project prioritizes fidelity to the original notebook manuscripts of Arq. Juan Fernando Cárdenas Guillén, capturing the authentic stroke pressure, ductus, and rhythm of his architectural handwriting without synthetic or extraneous weight variations.
@@ -37,8 +35,7 @@ Sinapsis is conceived and finalized exclusively as a **single-style typeface: Re
 #### Key Engineering Deliverables:
 - **Vertical Metrics Normalization:** Executed `scripts/AjustarMetricasVerticales.py` aligning typo, hhea, and win metrics to Google Fonts / Type Network standards (`typoAscender` = 935, `typoDescender` = -355, `winAscent` = 1060, `winDescent` = 355).
 - **Node Contour Smoothing:** Applied `scripts/Smooth2Sharp.py` for Bézier handle alignment and redundant curve point elimination.
-- **Fontbakery QA Audit:** Generated comprehensive compliance report (`tests/FhSinapsis-Regular-fontbakery-typenetwork.html`).
-- **Editorial Testing Specimens:** InDesign test proofing files (`tests/InD/`).
+- **Fontbakery QA Audit:** Generated comprehensive compliance report (`tests/FhSinapsis-Regular-fontbakery-typenetwork.html`) and vertical metrics report (`tests/Sinapsis-reporte-metricas-verticales.pdf`).
 
 ---
 
@@ -48,7 +45,7 @@ Sinapsis is conceived and finalized exclusively as a **single-style typeface: Re
 
 #### Key Engineering Deliverables:
 - Initialized modular Git repository adhering to font engineering industry standards.
-- Ingested initial Glyphs master (`sources/Sinapsis.glyphs`) and visual manuscript scans (`assets/`).
+- Prepared initial Glyphs master (`Sinapsis.glyphs`) and visual typographic specimens (`assets/`).
 - Authored technical documentation (`docs/00_context.md`, `docs/01_workflow.md`, `docs/02_nomenclature.md`, `docs/03_releases.md`).
 - Established legal framework: SIL Open Font License 1.1 (`LICENSE.txt`), EULA (`EULA.md`, `EULA.txt`), and attribution (`CONTRIBUTORS.md`).
 - Implemented build tooling: sanitized release packaging automation script (`builds/package_release.sh`).

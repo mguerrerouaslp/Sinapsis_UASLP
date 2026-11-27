@@ -99,9 +99,13 @@ if [ -d "${REPO_ROOT}/scripts" ]; then
   cp -R "${REPO_ROOT}/scripts/"* "${RELEASE_DIR}/scripts/"
 fi
 
-if [ -d "${REPO_ROOT}/assets" ] && [ -n "$(ls -A "${REPO_ROOT}/assets" 2>/dev/null)" ]; then
+# Include only top-level specimens from assets/ (exclude archival assets/scans/)
+if [ -d "${REPO_ROOT}/assets" ]; then
   mkdir -p "${RELEASE_DIR}/assets"
-  cp -R "${REPO_ROOT}/assets/"* "${RELEASE_DIR}/assets/"
+  find "${REPO_ROOT}/assets" -maxdepth 1 -type f ! -name ".DS_Store" ! -name "._*" -exec cp {} "${RELEASE_DIR}/assets/" \;
+  if [ -z "$(ls -A "${RELEASE_DIR}/assets" 2>/dev/null)" ]; then
+    rm -rf "${RELEASE_DIR}/assets"
+  fi
 fi
 
 # 6. Generate sanitized zip archive

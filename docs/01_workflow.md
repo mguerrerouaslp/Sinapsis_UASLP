@@ -4,8 +4,6 @@
 
 ---
 
----
-
 ## 1. Source Material & Digitization Pipeline
 
 The design process originates from the analog architectural notes and manuscripts of Arq. Juan Fernando Cárdenas Guillén (Sinapsis Architecture Workshop, Facultad del Hábitat, UASLP).
@@ -24,7 +22,7 @@ flowchart TD
 
 ### Step 1: Notebook Scanning at 600 DPI
 * **Archival Flatbed Scanning:** Physical notebooks and sketchbooks were scanned at a fixed optical resolution of **600 DPI** to preserve authentic analog ink dispersion, pen angle dynamics, and raw stroke textures.
-* **Archival Asset Storage:** Visual typographic specimens and assets are cataloged in [`assets/`](../assets/) (e.g., [`Sinapsis_specimen.png`](https://raw.githubusercontent.com/bluetypo/Sinapsis/main/assets/Sinapsis_specimen.png)).
+* **Archival Asset Storage:** Original notebook manuscript scans (23 pages) are archived in [`assets/scans/`](../assets/scans/), and typographic specimens are stored in [`assets/`](../assets/) (e.g., [`Sinapsis_specimen.png`](../assets/Sinapsis_specimen.png)).
 
 ### Step 2: Photographic Pre-Processing & Reframing in Adobe Photoshop
 * **Reframing & Perspective Correction:** Cropping, deskewing, and planar keystone correction to eliminate distortions resulting from notebook binding curvature.
@@ -46,7 +44,7 @@ flowchart TD
 * **Contextual Alternate Identification:** Isolating positional and alternating variations to emulate spontaneous freehand lettering through programmatic substitutions (`calt`, `ss01`, `ss02`).
 
 ### Step 6: Glyphs 3 Master Ingestion
-* **Master Source File:** `sources/Sinapsis.glyphs` (Glyphs 3 design master).
+* **Master Source File:** `Sinapsis.glyphs` (Glyphs 3 design master, maintained separately from the public distribution repo).
 * **Editor:** Glyphs 3.x.
 * **Master Setup:** Single master **Regular**, setting sidebearings (LSB / RSB), component inheritance, vertical metric alignment zones (Baseline, x-Height, Cap Height, Ascender, Descender), and anchor positioning (`top`, `bottom`, `ogonek`).
 * **Vertical Metrics Automation:** Running [`scripts/AjustarMetricasVerticales.py`](../scripts/AjustarMetricasVerticales.py) to configure Typo, Win, and Hhea metrics conforming to Google Fonts / Type Network specifications.
@@ -92,7 +90,7 @@ Before tagging releases or packaging:
    fontbakery check-universal builds/otf/proof/FhSinapsis-Regular.otf
    ```
 3. **Typographic Proofing:**
-   * Evaluate editorial typesetting proofs in Adobe InDesign (`tests/InD/FhSinapsis_Regular_Font_Testing_corregido_v2.indd`).
+   * Evaluate editorial typesetting proofs in Adobe InDesign and inspect vertical metrics (`tests/Sinapsis-reporte-metricas-verticales.pdf`).
 
 ---
 

@@ -1,0 +1,26 @@
+# OS metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Master font sources (not published in this public repository)
+sources/
+*.glyphs
+*.glyphspackage/
+
+# Unpacked release staging folders (keep only .zip archives in Git)
+builds/release/*/
+
+# Editor / temporary files
+*.swp
+*.swo
+*~
+*.bak

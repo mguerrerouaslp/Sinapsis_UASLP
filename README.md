@@ -1,13 +1,13 @@
 # Sinapsis
 
-![Sinapsis Specimen](https://raw.githubusercontent.com/bluetypo/Sinapsis/main/assets/Sinapsis_specimen.png)
+![Sinapsis Specimen](assets/Sinapsis_specimen.png)
 
 **Sinapsis** is an Open Access typeface created for the **Sinapsis Architecture Workshop** at the Facultad del Hábitat, Universidad Autónoma de San Luis Potosí (UASLP). The typeface is based on the architectural handwriting of architect **Juan Fernando Cárdenas Guillén**, who founded the workshop in 2011.
 
 > [!NOTE]
 > **Open Access Resource:** Sinapsis is a public good and open educational resource developed for the academic community of the Facultad del Hábitat (UASLP), students, architects, designers, and researchers worldwide. It is distributed under the [SIL Open Font License 1.1](LICENSE.txt), permitting free download, study, adaptation, and redistribution without royalties or licensing fees.
 
-This repository hosts the master design sources, font engineering toolsets, documentation, and production build pipelines structured under professional font development and version control standards.
+This repository hosts the production font binaries, font engineering toolsets, QA reports, documentation, and release packaging pipelines structured under professional font development and version control standards.
 
 ---
 
@@ -16,8 +16,9 @@ This repository hosts the master design sources, font engineering toolsets, docu
 The project follows a standard modular architecture for font engineering:
 
 ```text
-Sinapsis_font/
-├── assets/                 # Visual documentation, scans, specimens, and graphics
+Sinapsis_UASLP/
+├── assets/                 # Visual documentation, specimens, and graphics
+│   └── scans/              # Archival notebook manuscript scans (23 JPG pages)
 ├── builds/                 # Compiled binaries ready for testing and production
 │   ├── otf/
 │   │   └── proof/          # Desktop OpenType-CFF binary (FhSinapsis-Regular.otf)
@@ -35,8 +36,7 @@ Sinapsis_font/
 ├── scripts/                # Automated Glyphs Python engineering scripts
 │   ├── AjustarMetricasVerticales.py # Vertical metrics adjustment (Google Fonts specs)
 │   └── Smooth2Sharp.py     # Bézier contour optimization and node cleanup
-├── sources/                # Master source files (Sinapsis.glyphs)
-├── tests/                  # QA test suites, rendering tests, InDesign specimens, and Fontbakery reports
+├── tests/                  # QA reports (Fontbakery Type Network HTML and vertical metrics PDF)
 ├── CHANGELOG.md            # Semantic changelog following Keep a Changelog
 ├── CONTRIBUTORS.md         # Attribution of authors, workshop, and consultants
 ├── EULA.md                 # End User License Agreement (Markdown)
@@ -113,7 +113,7 @@ The production pipeline translates handwritten sketchbooks into precision digita
    * Segregation of uppercase (majuscules) and lowercase (minuscules) letterforms.
    * Mapping of natural handwritten ligatures and terminal forms.
    * Cataloging of contextual alternate glyph variants (`calt`, `ss01`, `ss02`).
-6. **Master Ingestion (Glyphs 3):** Structuring glyph layers, sidebearings, vertical alignment zones, and anchors within `sources/Sinapsis.glyphs`.
+6. **Master Ingestion (Glyphs 3):** Structuring glyph layers, sidebearings, vertical alignment zones, and anchors in the Glyphs 3 master (`Sinapsis.glyphs`).
 7. **OpenType Feature Scripting:** Authoring substitution routines (`calt`, `ss01`, `ss02`, `liga`, `dlig`, `smcp`, `c2sc`, `locl`) to maintain dynamic handwriting rhythm.
 8. **Quality Assurance (QA) & Compilation:** Testing via *Fontbakery*, vertical metrics auditing, and production compilation to OTF, TTF, WOFF, and WOFF2.
 
@@ -134,6 +134,6 @@ See [`docs/01_workflow.md`](docs/01_workflow.md) for full procedural documentati
 **Sinapsis** is released as an **Open Access Resource** under the terms of the **SIL Open Font License, Version 1.1** ([LICENSE.txt](LICENSE.txt)).
 
 * **Commercial & Non-Commercial Use:** Free for personal, educational, research, architectural, editorial, and commercial applications.
-* **Open Source Availability:** Full access to both compiled distribution binaries and raw design masters (`sources/Sinapsis.glyphs`).
+* **Open Access Distribution:** Full access to compiled distribution binaries (OTF, TTF, WOFF, WOFF2), engineering scripts, QA reports, and technical documentation.
 * **Derivative Works:** Modification and redistribution permitted provided derivatives remain under the OFL and respect the Reserved Font Names (*"Sinapsis"*, *"Fh-Sinapsis"*).
 * See the [End User License Agreement (EULA.md)](EULA.md) for comprehensive terms.

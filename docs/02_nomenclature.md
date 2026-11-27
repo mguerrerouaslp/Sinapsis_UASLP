@@ -4,8 +4,6 @@
 
 ---
 
----
-
 ## 1. Scope & Single-Style Architecture
 
 Sinapsis is designed and released strictly as a single-weight typeface: **Regular** (`Fh-Sinapsis Regular`). It intentionally omits synthetic or interpolated weights (Light, Bold, Black) and Italics in order to focus with absolute typographic integrity on the authentic handwriting and drafting pen ductus of architect Juan Fernando Cárdenas Guillén.

@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # ==============================================================================
 # Sinapsis — Production Release Packaging Utility
-# Generates sanitized distribution packages (.zip) and release directories
-# purged of operating system metadata (.DS_Store, ._*, Thumbs.db, etc.).
+# Generates sanitized distribution packages (.zip) purged of operating system
+# metadata (.DS_Store, ._*, Thumbs.db, etc.).
 # ==============================================================================
 
 set -euo pipefail
@@ -80,33 +80,35 @@ for fmt in otf ttf woff woff2; do
   fi
 done
 
-# 5. Copy license and distribution documentation
-echo "-> Including licensing and release documentation..."
+# 5. Copy licensing and distribution documentation (fonts + licenses + README only)
+echo "-> Including licensing and distribution README..."
 [ -f "${REPO_ROOT}/EULA.txt" ] && cp "${REPO_ROOT}/EULA.txt" "${RELEASE_DIR}/"
 [ -f "${REPO_ROOT}/EULA.md" ] && cp "${REPO_ROOT}/EULA.md" "${RELEASE_DIR}/"
 [ -f "${REPO_ROOT}/LICENSE.txt" ] && cp "${REPO_ROOT}/LICENSE.txt" "${RELEASE_DIR}/"
 [ -f "${REPO_ROOT}/README.md" ] && cp "${REPO_ROOT}/README.md" "${RELEASE_DIR}/"
-[ -f "${REPO_ROOT}/CONTRIBUTORS.md" ] && cp "${REPO_ROOT}/CONTRIBUTORS.md" "${RELEASE_DIR}/"
-[ -f "${REPO_ROOT}/CHANGELOG.md" ] && cp "${REPO_ROOT}/CHANGELOG.md" "${RELEASE_DIR}/"
 
-if [ -d "${REPO_ROOT}/docs" ]; then
-  mkdir -p "${RELEASE_DIR}/docs"
-  cp -R "${REPO_ROOT}/docs/"* "${RELEASE_DIR}/docs/"
+# Adapt links in distribution README so repository-only paths resolve on GitHub
+if [ -f "${RELEASE_DIR}/README.md" ]; then
+  python3 - "${RELEASE_DIR}/README.md" << 'EOF'
+import sys, re
+target_file = sys.argv[1]
+with open(target_file, 'r', encoding='utf-8') as f:
+    c = f.read()
+c = re.sub(r'\((assets/[^)]+)\)', r'(https://raw.githubusercontent.com/bluetypo/Sinapsis_UASLP/main/\1)', c)
+c = re.sub(r'\((docs/[^)]+)\)', r'(https://github.com/bluetypo/Sinapsis_UASLP/blob/main/\1)', c)
+c = re.sub(r'\(builds/release/[^)]+\)', r'(https://github.com/bluetypo/Sinapsis_UASLP/releases)', c)
+c = re.sub(r'\(builds/release/?\)', r'(https://github.com/bluetypo/Sinapsis_UASLP/tree/main/builds/release)', c)
+c = re.sub(r'\((CHANGELOG\.md)\)', r'(https://github.com/bluetypo/Sinapsis_UASLP/blob/main/\1)', c)
+c = re.sub(r'\((CONTRIBUTORS\.md)\)', r'(https://github.com/bluetypo/Sinapsis_UASLP/blob/main/\1)', c)
+with open(target_file, 'w', encoding='utf-8') as f:
+    f.write(c)
+EOF
 fi
 
-if [ -d "${REPO_ROOT}/scripts" ]; then
-  mkdir -p "${RELEASE_DIR}/scripts"
-  cp -R "${REPO_ROOT}/scripts/"* "${RELEASE_DIR}/scripts/"
-fi
-
-# Include only top-level specimens from assets/ (exclude archival assets/scans/)
-if [ -d "${REPO_ROOT}/assets" ]; then
-  mkdir -p "${RELEASE_DIR}/assets"
-  find "${REPO_ROOT}/assets" -maxdepth 1 -type f ! -name ".DS_Store" ! -name "._*" -exec cp {} "${RELEASE_DIR}/assets/" \;
-  if [ -z "$(ls -A "${RELEASE_DIR}/assets" 2>/dev/null)" ]; then
-    rm -rf "${RELEASE_DIR}/assets"
-  fi
-fi
+# Clean operating system metadata inside release directory
+find "${RELEASE_DIR}" -name ".DS_Store" -type f -delete 2>/dev/null || true
+find "${RELEASE_DIR}" -name "._*" -type f -delete 2>/dev/null || true
+find "${RELEASE_DIR}" -name "Thumbs.db" -type f -delete 2>/dev/null || true
 
 # 6. Generate sanitized zip archive
 echo "-> Compiling sanitized zip archive..."
@@ -114,6 +116,9 @@ echo "-> Compiling sanitized zip archive..."
   cd "${REPO_ROOT}/builds/release"
   zip -r -X -q "${RELEASE_NAME}.zip" "${RELEASE_NAME}"
 )
+
+# Remove temporary unpacked staging folder
+rm -rf "${RELEASE_DIR}"
 
 echo "=================================================="
 echo " Release successfully generated at:"

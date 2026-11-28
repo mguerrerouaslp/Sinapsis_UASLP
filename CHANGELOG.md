@@ -23,7 +23,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
   - Added the complete list of **126 supported Latin-based languages** to `README.md` and `index.html`.
   - Updated specimen image links to relative paths across `README.md` and `docs/`.
 - **Release Packaging (`builds/package_release.sh`):**
-  - Included `specimen/Sinapsis_specimen.pdf` in the release package while excluding archival `assets/scans/` to keep downloads focused.
+  - Kept the release archive lightweight by excluding archival `assets/scans/` and `specimen/` (retained in the repository).
   - Removed duplicate unpacked release directory from Git history.
 
 ---

@@ -108,12 +108,6 @@ if [ -d "${REPO_ROOT}/assets" ]; then
   fi
 fi
 
-# Include editorial PDF specimen(s) if present
-if [ -d "${REPO_ROOT}/specimen" ] && compgen -G "${REPO_ROOT}/specimen/*.pdf" > /dev/null; then
-  mkdir -p "${RELEASE_DIR}/specimen"
-  cp "${REPO_ROOT}/specimen/"*.pdf "${RELEASE_DIR}/specimen/"
-fi
-
 # 6. Generate sanitized zip archive
 echo "-> Compiling sanitized zip archive..."
 (

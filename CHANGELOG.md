@@ -9,7 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 ## [1.0.3] - 2026-11-28
 ### Added
 - **Editorial Typographic Specimen (`specimen/Sinapsis_specimen.pdf`):**
-  - Full multi-page PDF specimen showcasing `Fh-Sinapsis Regular` alongside architectural ink illustrations of the Sagrada Familia, character sets (basic, extended Latin, small caps, ligatures, contextual alternates, stylistic sets, fractions, math/currency, localized forms), and Spanish/Catalan texts.
+  - Full multi-page PDF specimen showcasing `Sinapsis-FH Regular` alongside architectural ink illustrations of the Sagrada Familia, character sets (basic, extended Latin, small caps, ligatures, contextual alternates, stylistic sets, fractions, math/currency, localized forms), and Spanish/Catalan texts.
 - **Archival Manuscript Scans (`assets/scans/`):**
   - Published 23 digitized archival manuscript pages documenting the original architectural handwriting source material.
 - **Public Showcase & Download Page (`index.html`):**
@@ -19,7 +19,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Changed
 - **Naming & Documentation Adjustments:**
-  - Standardized repository and distribution naming (`Sinapsis_UASLP`, `Sinapsis_v1.0.3.zip`) and aligned `README.md` and `docs/` with the public distribution structure.
+  - Renamed typeface family from `Fh-Sinapsis` (`FhSinapsis-Regular`) to **`Sinapsis-FH`** (`SinapsisFH-Regular`) across compiled binaries (`otf`, `ttf`, `woff`, `woff2`), legal files (`LICENSE.txt`, `EULA.md`, `EULA.txt`), web showcase (`index.html`), and technical documentation.
+  - Standardized repository and distribution naming (`Sinapsis_UASLP`, `Sinapsis-FH_v1.0.3.zip`) and aligned `README.md` and `docs/` with the public distribution structure.
   - Added the complete list of **126 supported Latin-based languages** to `README.md` and `index.html`.
   - Updated specimen image links to relative paths across `README.md` and `docs/`.
 - **Release Packaging (`builds/package_release.sh`):**

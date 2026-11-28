@@ -7,7 +7,7 @@
 ---
 **Sinapsis** is an Open Access typeface created for the **Sinapsis Architecture Workshop** at the Facultad del Hábitat, Universidad Autónoma de San Luis Potosí (UASLP). The typeface is rooted in the personal architectural handwriting of architect **Juan Fernando Cárdenas Guillén**, who founded the workshop in 2011.
 
-The project captures, formalizes, and translates the architectural ductus, rhythm, and structural strokes of the architect's sketchbook lettering into a precision digital typographic system built to professional engineering standards. Sinapsis is developed strictly as a single-style typeface: **Regular** (`Fh-Sinapsis Regular`), ensuring complete fidelity to the original ink gestures and pen dynamics without synthetic weight variations.
+The project captures, formalizes, and translates the architectural ductus, rhythm, and structural strokes of the architect's sketchbook lettering into a precision digital typographic system built to professional engineering standards. Sinapsis is developed strictly as a single-style typeface: **Regular** (`Sinapsis-FH Regular`), ensuring complete fidelity to the original ink gestures and pen dynamics without synthetic weight variations.
 
 ---
 

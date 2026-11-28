@@ -64,11 +64,11 @@ flowchart TD
 
 Compiled binaries are generated into their dedicated directories:
 
-* **Desktop CFF OpenType (.otf):** `builds/otf/proof/FhSinapsis-Regular.otf`
-* **Desktop TrueType (.ttf):** `builds/ttf/FhSinapsis-Regular.ttf`
-* **Web Open Font Format (.woff):** `builds/woff/proof/FhSinapsis-Regular.woff`
-* **Web Open Font Format 2 (.woff2):** `builds/woff2/FhSinapsis-Regular.woff2`
-* **Official Distribution Archives:** `builds/release/Sinapsis_v1.0.3.zip`
+* **Desktop CFF OpenType (.otf):** `builds/otf/proof/SinapsisFH-Regular.otf`
+* **Desktop TrueType (.ttf):** `builds/ttf/SinapsisFH-Regular.ttf`
+* **Web Open Font Format (.woff):** `builds/woff/proof/SinapsisFH-Regular.woff`
+* **Web Open Font Format 2 (.woff2):** `builds/woff2/SinapsisFH-Regular.woff2`
+* **Official Distribution Archives:** `builds/release/Sinapsis-FH_v1.0.3.zip`
 
 ### Export Configuration Guidelines:
 1. **Remove Overlaps:** Enable during export to produce clean composite contours.
@@ -87,7 +87,7 @@ Before tagging releases or packaging:
    * Verify all glyphs pass inflection, missing extrema, and overlapping node checks.
 2. **Automated Fontbakery Validation:**
    ```bash
-   fontbakery check-universal builds/otf/proof/FhSinapsis-Regular.otf
+   fontbakery check-universal builds/otf/proof/SinapsisFH-Regular.otf
    ```
 3. **Typographic Proofing:**
    * Evaluate editorial typesetting proofs in Adobe InDesign and inspect vertical metrics (`tests/Sinapsis-reporte-metricas-verticales.pdf`).

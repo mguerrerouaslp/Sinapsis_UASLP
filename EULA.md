@@ -1,10 +1,10 @@
 # End User License Agreement (EULA) — Sinapsis
 
-**Typeface:** Sinapsis (Fh-Sinapsis Regular)  
+**Typeface:** Sinapsis (Sinapsis-FH Regular)  
 **Style:** Regular (Single Style)  
 **Status:** Open Access Resource  
 **Copyright Holders:** © 2026, Taller de Arquitectura Sinapsis — Facultad del Hábitat, Universidad Autónoma de San Luis Potosí (UASLP) (https://habitat.uaslp.mx) & Manuel Guerrero Salinas — Bluetypo (https://bluetypo.com)  
-**Reserved Font Names:** "Sinapsis", "Fh-Sinapsis"  
+**Reserved Font Names:** "Sinapsis", "Sinapsis-FH"  
 **Underlying License:** SIL Open Font License (OFL), Version 1.1  
 
 ---
@@ -29,7 +29,7 @@ Permission is hereby granted, free of charge, to any person or entity obtaining 
 
 ## 3. Modifications & Derivative Works
 * **Right to Adapt:** You are free to modify, expand, or adjust glyph contours, metrics, OpenType feature scripts, or formats.
-* **Reserved Font Name Protection:** Any modified or derivative font **CANNOT** use the name **"Sinapsis"**, **"Fh-Sinapsis"**, or any confusingly similar derivative in its primary family name or metadata without explicit prior written authorization from the copyright holders.
+* **Reserved Font Name Protection:** Any modified or derivative font **CANNOT** use the name **"Sinapsis"**, **"Sinapsis-FH"**, or any confusingly similar derivative in its primary family name or metadata without explicit prior written authorization from the copyright holders.
 * **Copyleft Requirement:** Any derivative work based on this Font Software must remain licensed under the SIL Open Font License, Version 1.1.
 
 ---

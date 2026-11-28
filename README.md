@@ -21,11 +21,11 @@ Sinapsis_UASLP/
 │   └── scans/              # Archival notebook manuscript scans (23 JPG pages)
 ├── builds/                 # Compiled binaries ready for testing and production
 │   ├── otf/
-│   │   └── proof/          # Desktop OpenType-CFF binary (FhSinapsis-Regular.otf)
-│   ├── ttf/                # TrueType binary (FhSinapsis-Regular.ttf)
+│   │   └── proof/          # Desktop OpenType-CFF binary (SinapsisFH-Regular.otf)
+│   ├── ttf/                # TrueType binary (SinapsisFH-Regular.ttf)
 │   ├── woff/
-│   │   └── proof/          # Web Open Font Format binary (FhSinapsis-Regular.woff)
-│   ├── woff2/              # Web Open Font Format 2 binary (FhSinapsis-Regular.woff2)
+│   │   └── proof/          # Web Open Font Format binary (SinapsisFH-Regular.woff)
+│   ├── woff2/              # Web Open Font Format 2 binary (SinapsisFH-Regular.woff2)
 │   ├── release/            # Clean distribution packages (.zip)
 │   └── package_release.sh  # Automated sanitized packaging utility
 ├── docs/                   # Technical documentation and specifications
@@ -61,14 +61,14 @@ Sinapsis_UASLP/
 
 ## Typographic Style & Scope
 
-Sinapsis is purposefully engineered as a single-style typeface: **Regular** (`Fh-Sinapsis Regular`). The project focuses with maximum fidelity on preserving and translating the singular gesture, organic ductus, stroke weight, and rhythm of Arq. Juan Fernando Cárdenas Guillén's notebook manuscripts.
+Sinapsis is purposefully engineered as a single-style typeface: **Regular** (`Sinapsis-FH Regular`). The project focuses with maximum fidelity on preserving and translating the singular gesture, organic ductus, stroke weight, and rhythm of Arq. Juan Fernando Cárdenas Guillén's notebook manuscripts.
 
 | Parameter | Value |
 | :--- | :--- |
-| **Family Name (ID 1 / 16)** | `Fh-Sinapsis` |
+| **Family Name (ID 1 / 16)** | `Sinapsis-FH` |
 | **Subfamily Name (ID 2 / 17)** | `Regular` |
-| **Full Font Name (ID 4)** | `Fh-Sinapsis Regular` |
-| **PostScript Name (ID 6)** | `FhSinapsis-Regular` |
+| **Full Font Name (ID 4)** | `Sinapsis-FH Regular` |
+| **PostScript Name (ID 6)** | `SinapsisFH-Regular` |
 | **Weight Class (`usWeightClass`)** | `400` (Normal / Regular) |
 | **Width Class (`usWidthClass`)** | `5` (Medium) |
 | **Target Distribution Formats** | Desktop (`.otf`, `.ttf`), Web (`.woff`, `.woff2`) |
@@ -145,5 +145,5 @@ See [`docs/01_workflow.md`](docs/01_workflow.md) for full procedural documentati
 
 * **Commercial & Non-Commercial Use:** Free for personal, educational, research, architectural, editorial, and commercial applications.
 * **Open Access Distribution:** Full access to compiled distribution binaries (OTF, TTF, WOFF, WOFF2), engineering scripts, QA reports, and technical documentation.
-* **Derivative Works:** Modification and redistribution permitted provided derivatives remain under the OFL and respect the Reserved Font Names (*"Sinapsis"*, *"Fh-Sinapsis"*).
+* **Derivative Works:** Modification and redistribution permitted provided derivatives remain under the OFL and respect the Reserved Font Names (*"Sinapsis"*, *"Sinapsis-FH"*).
 * See the [End User License Agreement (EULA.md)](EULA.md) for comprehensive terms.

@@ -1,5 +1,5 @@
 Copyright (c) 2026, Taller de Arquitectura Sinapsis — Facultad del Hábitat, Universidad Autónoma de San Luis Potosí (https://habitat.uaslp.mx) & Manuel Guerrero Salinas - Bluetypo (https://bluetypo.com),
-with Reserved Font Names "Sinapsis" and "Fh-Sinapsis".
+with Reserved Font Names "Sinapsis" and "Sinapsis-FH".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:

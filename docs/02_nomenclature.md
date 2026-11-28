@@ -6,15 +6,15 @@
 
 ## 1. Scope & Single-Style Architecture
 
-Sinapsis is designed and released strictly as a single-weight typeface: **Regular** (`Fh-Sinapsis Regular`). It intentionally omits synthetic or interpolated weights (Light, Bold, Black) and Italics in order to focus with absolute typographic integrity on the authentic handwriting and drafting pen ductus of architect Juan Fernando Cárdenas Guillén.
+Sinapsis is designed and released strictly as a single-weight typeface: **Regular** (`Sinapsis-FH Regular`). It intentionally omits synthetic or interpolated weights (Light, Bold, Black) and Italics in order to focus with absolute typographic integrity on the authentic handwriting and drafting pen ductus of architect Juan Fernando Cárdenas Guillén.
 
-* **Family Name (ID 1):** `Fh-Sinapsis`
+* **Family Name (ID 1):** `Sinapsis-FH`
 * **Subfamily Name (ID 2):** `Regular`
-* **Unique Font Identifier (ID 3):** `1.002;BLTY;FhSinapsis-Regular`
-* **Full Font Name (ID 4):** `Fh-Sinapsis Regular`
-* **Version String (ID 5):** `Version 1.002`
-* **PostScript Name (ID 6):** `FhSinapsis-Regular`
-* **Typographic Family Name (ID 16):** `Fh-Sinapsis`
+* **Unique Font Identifier (ID 3):** `1.003;BLTY;SinapsisFH-Regular`
+* **Full Font Name (ID 4):** `Sinapsis-FH Regular`
+* **Version String (ID 5):** `Version 1.003`
+* **PostScript Name (ID 6):** `SinapsisFH-Regular`
+* **Typographic Family Name (ID 16):** `Sinapsis-FH`
 * **Typographic Subfamily Name (ID 17):** `Regular`
 
 ---
@@ -47,8 +47,8 @@ PostScript names do not exceed 29 characters, contain no spaces or special chara
 
 | Format | Target Directory | Filename | PostScript Name (ID 6) |
 | :--- | :--- | :--- | :--- |
-| **Desktop OpenType-CFF** | `builds/otf/proof/` | `FhSinapsis-Regular.otf` | `FhSinapsis-Regular` |
-| **Desktop TrueType** | `builds/ttf/` | `FhSinapsis-Regular.ttf` | `FhSinapsis-Regular` |
-| **Webfont WOFF** | `builds/woff/proof/` | `FhSinapsis-Regular.woff` | `FhSinapsis-Regular` |
-| **Webfont WOFF2** | `builds/woff2/` | `FhSinapsis-Regular.woff2` | `FhSinapsis-Regular` |
-| **Release Archive** | `builds/release/` | `Sinapsis_v1.0.3.zip` | — |
+| **Desktop OpenType-CFF** | `builds/otf/proof/` | `SinapsisFH-Regular.otf` | `SinapsisFH-Regular` |
+| **Desktop TrueType** | `builds/ttf/` | `SinapsisFH-Regular.ttf` | `SinapsisFH-Regular` |
+| **Webfont WOFF** | `builds/woff/proof/` | `SinapsisFH-Regular.woff` | `SinapsisFH-Regular` |
+| **Webfont WOFF2** | `builds/woff2/` | `SinapsisFH-Regular.woff2` | `SinapsisFH-Regular` |
+| **Release Archive** | `builds/release/` | `Sinapsis-FH_v1.0.3.zip` | — |

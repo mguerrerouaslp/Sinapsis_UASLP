@@ -17,10 +17,10 @@ Sinapsis is conceived and finalized exclusively as a **single-style typeface: Re
 **Focus:** Editorial PDF specimen, naming/documentation adjustments, archival scans, web showcase, and sanitized release packaging.
 
 #### Key Engineering Deliverables:
-- **Editorial PDF Specimen:** Added `specimen/Sinapsis_specimen.pdf` showcasing `Fh-Sinapsis Regular` in architectural layouts, extended character sets, and Spanish/Catalan texts.
-- **Naming & Documentation Adjustments:** Aligned repository naming (`Sinapsis_UASLP`), relative asset links, 126-language support documentation, and `.gitignore`.
+- **Editorial PDF Specimen:** Added `specimen/Sinapsis_specimen.pdf` showcasing `Sinapsis-FH Regular` in architectural layouts, extended character sets, and Spanish/Catalan texts.
+- **Naming & Documentation Adjustments:** Renamed typeface family from `Fh-Sinapsis` to `Sinapsis-FH` (`SinapsisFH-Regular`), aligned repository naming (`Sinapsis_UASLP`), relative asset links, 126-language support documentation, and `.gitignore`.
 - **Archival Scans & Web Showcase:** Added 23 manuscript scans in `assets/scans/` and interactive landing page `index.html`.
-- **Release Package (`Sinapsis_v1.0.3.zip`):** Aligned `builds/package_release.sh` to bundle only compiled font binaries (`otf`, `ttf`, `woff`, `woff2`), licenses, and distribution `README.md` with resolved GitHub links.
+- **Release Package (`Sinapsis-FH_v1.0.3.zip`):** Aligned `builds/package_release.sh` to bundle only compiled font binaries (`otf`, `ttf`, `woff`, `woff2`), licenses, and distribution `README.md` with resolved GitHub links.
 
 ---
 

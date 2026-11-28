@@ -33,7 +33,7 @@ else
   fi
 fi
 
-RELEASE_NAME="Sinapsis_${VERSION_TAG}"
+RELEASE_NAME="Sinapsis-FH_${VERSION_TAG}"
 RELEASE_DIR="${REPO_ROOT}/builds/release/${RELEASE_NAME}"
 RELEASE_ZIP="${REPO_ROOT}/builds/release/${RELEASE_NAME}.zip"
 

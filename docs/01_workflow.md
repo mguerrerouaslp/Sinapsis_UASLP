@@ -68,7 +68,7 @@ Compiled binaries are generated into their dedicated directories:
 * **Desktop TrueType (.ttf):** `builds/ttf/FhSinapsis-Regular.ttf`
 * **Web Open Font Format (.woff):** `builds/woff/proof/FhSinapsis-Regular.woff`
 * **Web Open Font Format 2 (.woff2):** `builds/woff2/FhSinapsis-Regular.woff2`
-* **Official Distribution Archives:** `builds/release/Sinapsis_v1.0.2.zip`
+* **Official Distribution Archives:** `builds/release/Sinapsis_v1.0.3.zip`
 
 ### Export Configuration Guidelines:
 1. **Remove Overlaps:** Enable during export to produce clean composite contours.
@@ -107,6 +107,6 @@ To prepare a production-grade Open Access distribution package:
 4. Update `CHANGELOG.md` with semantic release notes.
 5. Create an annotated Git tag:
    ```bash
-   git tag -a v1.0.2 -m "Release v1.0.2"
+   git tag -a v1.0.3 -m "Release v1.0.3"
    git push origin main --tags
    ```

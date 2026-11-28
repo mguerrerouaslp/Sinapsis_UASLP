@@ -6,6 +6,28 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ---
 
+## [1.0.3] - 2026-11-28
+### Added
+- **Editorial Typographic Specimen (`specimen/Sinapsis_specimen.pdf`):**
+  - Full multi-page PDF specimen showcasing `Fh-Sinapsis Regular` alongside architectural ink illustrations of the Sagrada Familia, character sets (basic, extended Latin, small caps, ligatures, contextual alternates, stylistic sets, fractions, math/currency, localized forms), and Spanish/Catalan texts.
+- **Archival Manuscript Scans (`assets/scans/`):**
+  - Published 23 digitized archival manuscript pages documenting the original architectural handwriting source material.
+- **Public Showcase & Download Page (`index.html`):**
+  - Added static web specimen with live type tester, automatic latest-release download link, and full 126-language support list.
+- **Repository Hygiene (`.gitignore`):**
+  - Added `.gitignore` excluding OS metadata, unpacked release staging folders, and private Glyphs master files (`sources/`, `*.glyphs`, `*.glyphspackage/`).
+
+### Changed
+- **Naming & Documentation Adjustments:**
+  - Standardized repository and distribution naming (`Sinapsis_UASLP`, `Sinapsis_v1.0.3.zip`) and aligned `README.md` and `docs/` with the public distribution structure.
+  - Added the complete list of **126 supported Latin-based languages** to `README.md` and `index.html`.
+  - Updated specimen image links to relative paths across `README.md` and `docs/`.
+- **Release Packaging (`builds/package_release.sh`):**
+  - Included `specimen/Sinapsis_specimen.pdf` in the release package while excluding archival `assets/scans/` to keep downloads focused.
+  - Removed duplicate unpacked release directory from Git history.
+
+---
+
 ## [1.0.2] - 2026-11-21
 ### Added
 - **Contextual Alternates Engine (`calt`):**

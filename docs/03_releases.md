@@ -12,6 +12,18 @@ Sinapsis is conceived and finalized exclusively as a **single-style typeface: Re
 
 ## Release History
 
+### [v1.0.3] - 2026-11-28 (Specimen & Documentation Release)
+**Status:** Completed Production Release  
+**Focus:** Editorial PDF specimen, naming/documentation adjustments, archival scans, web showcase, and sanitized release packaging.
+
+#### Key Engineering Deliverables:
+- **Editorial PDF Specimen:** Added `specimen/Sinapsis_specimen.pdf` showcasing `Fh-Sinapsis Regular` in architectural layouts, extended character sets, and Spanish/Catalan texts.
+- **Naming & Documentation Adjustments:** Aligned repository naming (`Sinapsis_UASLP`), relative asset links, 126-language support documentation, and `.gitignore`.
+- **Archival Scans & Web Showcase:** Added 23 manuscript scans in `assets/scans/` and interactive landing page `index.html`.
+- **Release Package (`Sinapsis_v1.0.3.zip`):** Updated `builds/package_release.sh` to bundle `specimen/Sinapsis_specimen.pdf` while excluding archival `assets/scans/`.
+
+---
+
 ### [v1.0.2] - 2026-11-21 (Production Release)
 **Status:** Completed Production Release  
 **Focus:** OpenType Contextual Alternates (`calt`), Small Caps suite, Kerning refinement, and Production Builds.

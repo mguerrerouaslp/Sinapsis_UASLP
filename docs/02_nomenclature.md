@@ -51,4 +51,4 @@ PostScript names do not exceed 29 characters, contain no spaces or special chara
 | **Desktop TrueType** | `builds/ttf/` | `FhSinapsis-Regular.ttf` | `FhSinapsis-Regular` |
 | **Webfont WOFF** | `builds/woff/proof/` | `FhSinapsis-Regular.woff` | `FhSinapsis-Regular` |
 | **Webfont WOFF2** | `builds/woff2/` | `FhSinapsis-Regular.woff2` | `FhSinapsis-Regular` |
-| **Release Archive** | `builds/release/` | `Sinapsis_v1.0.2.zip` | — |
+| **Release Archive** | `builds/release/` | `Sinapsis_v1.0.3.zip` | — |

@@ -36,7 +36,9 @@ Sinapsis_UASLP/
 ├── scripts/                # Automated Glyphs Python engineering scripts
 │   ├── AjustarMetricasVerticales.py # Vertical metrics adjustment (Google Fonts specs)
 │   └── Smooth2Sharp.py     # Bézier contour optimization and node cleanup
+├── specimen/               # Editorial PDF typographic specimen (Sinapsis_specimen.pdf)
 ├── tests/                  # QA reports (Fontbakery Type Network HTML and vertical metrics PDF)
+├── index.html              # Public web showcase and interactive font tester
 ├── CHANGELOG.md            # Semantic changelog following Keep a Changelog
 ├── CONTRIBUTORS.md         # Attribution of authors, workshop, and consultants
 ├── EULA.md                 # End User License Agreement (Markdown)
